@@ -1,5 +1,7 @@
 ### **1. `NoSchedule` Taint with Example YAML**  
 
+
+
 #### **Step 1: Taint a Node with `NoSchedule`**
 ```sh
 kubectl taint nodes worker-node-1 key=value:NoSchedule
